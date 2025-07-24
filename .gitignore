@@ -1,0 +1,87 @@
+# ==========================
+# ARCHIVO .gitignore ANDROID STUDIO
+# ==========================
+
+# Archivos y carpetas de Android Studio
+.idea/
+*.iml
+.gradle/
+local.properties
+/.settings/
+
+# Carpetas de compilación
+build/
+app/build/
+out/
+
+# Archivos de gradle wrappers generados
+gradle/
+gradlew
+gradlew.bat
+
+# Archivos temporales o de cache
+*.log
+*.tmp
+*.temp
+*.lock
+*.swp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpetas de test automáticos locales
+app/src/androidTest/
+app/src/test/
+
+# Archivos de configuración personal
+*.keystore
+*.jks
+
+# Carpeta de binarios y librerías descargadas
+/captures/
+/.externalNativeBuild/
+/.cxx/
+/navigation.json
+*.apk
+*.ap_ 
+*.dex
+*.class
+
+# Archivos de dependencia generados
+*.jar
+*.war
+*.ear
+*.aar
+
+# Archivos generados por lint o análisis
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+# Archivos de configuración de gradle específicos del usuario
+gradle.properties
+
+# Archivos de control de versiones propios de Android Studio
+*.orig
+*.rej
+
+# Archivos de configuración de IntelliJ IDEA
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetDropDown.xml
+
+# Archivos de sincronización de Google Services
+google-services.json
+
+# Archivos de firma
+signing/
+release/
+
+# Carpeta generada por perfiles
+.profiler/

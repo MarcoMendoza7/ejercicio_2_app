@@ -1,4 +1,4 @@
-package com.tesji.compose2
+package com.tesji.compose3
 
 import org.junit.Test
 
